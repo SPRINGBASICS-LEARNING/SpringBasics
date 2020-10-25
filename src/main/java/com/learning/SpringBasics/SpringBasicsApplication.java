@@ -30,6 +30,8 @@ public class SpringBasicsApplication {
         PersonDAO personDao2 = applicationContext.getBean(PersonDAO.class);
         LOGGER.info("{}", personDao);
         LOGGER.info("{}", personDao.getJdbcConnection());
+        //using proxy mode in scope gives a different instance here
+        LOGGER.info("{}", personDao.getJdbcConnection());
 
         LOGGER.info("{}", personDao2);
         LOGGER.info("{}", personDao2.getJdbcConnection());
