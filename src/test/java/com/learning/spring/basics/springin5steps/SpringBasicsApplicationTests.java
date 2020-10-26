@@ -1,4 +1,4 @@
-package com.learning.SpringBasics;
+package com.learning.spring.basics.springin5steps;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

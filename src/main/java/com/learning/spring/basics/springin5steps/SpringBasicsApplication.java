@@ -1,7 +1,6 @@
-package com.learning.SpringBasics;
+package com.learning.spring.basics.springin5steps;
 
-import com.learning.SpringBasics.basic.BinarySearchImpl;
-import com.learning.SpringBasics.scope.PersonDAO;
+import com.learning.spring.basics.springin5steps.scope.PersonDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;

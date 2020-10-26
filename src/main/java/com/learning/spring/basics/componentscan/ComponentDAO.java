@@ -1,6 +1,5 @@
-package com.learning.SpringBasics.scope;
+package com.learning.spring.basics.componentscan;
 
-import com.learning.SpringBasics.scope.JdbcConnection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
@@ -8,16 +7,16 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-public class PersonDAO {
+public class ComponentDAO {
 
     @Autowired
-    JdbcConnection jdbcConnection;
+    ComponentJdbcConnection jdbcConnection;
 
-    public JdbcConnection getJdbcConnection() {
+    public ComponentJdbcConnection getJdbcConnection() {
         return jdbcConnection;
     }
 
-    public void setJdbcConnection(JdbcConnection jdbcConnection) {
+    public void setComponentJdbcConnection(ComponentJdbcConnection jdbcConnection) {
         this.jdbcConnection = jdbcConnection;
     }
 }
