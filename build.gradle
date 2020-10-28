@@ -13,9 +13,17 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter'
+	// https://mvnrepository.com/artifact/org.springframework/spring-core
+	compile group: 'org.springframework', name: 'spring-core'
+	// https://mvnrepository.com/artifact/org.springframework/spring-context
+	compile group: 'org.springframework', name: 'spring-context'
+	// https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+	compile group: 'org.slf4j', name: 'slf4j-api'
+
+
+	//implementation 'org.springframework.boot:spring-boot-starter'
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
-	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.3.4.RELEASE'
+	//compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.3.4.RELEASE'
 	// https://mvnrepository.com/artifact/javax.inject/javax.inject
 	compile group: 'javax.inject', name: 'javax.inject', version: '1'
 
