@@ -1,7 +1,6 @@
-/*package com.learning.spring.basics.springin5steps;
+package com.learning.spring.basics.springin5steps;
 
 import com.learning.spring.basics.springin5steps.cdi.CdiBusiness;
-import com.learning.spring.basics.springin5steps.scope.PersonDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -18,4 +17,4 @@ public class SpringCdiApplication {
         CdiBusiness cdiBusiness = applicationContext.getBean(CdiBusiness.class);
         LOGGER.info("{} dao-{}", cdiBusiness, cdiBusiness.getCdidao());
     }
-}*/
+}

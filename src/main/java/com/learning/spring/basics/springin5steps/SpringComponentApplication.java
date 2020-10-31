@@ -1,4 +1,3 @@
-/*
 package com.learning.spring.basics.springin5steps;
 
 import com.learning.spring.basics.componentscan.ComponentDAO;
@@ -22,4 +21,4 @@ public class SpringComponentApplication {
         LOGGER.info("{}", componentDAO);
     }
 
-}*/
+}

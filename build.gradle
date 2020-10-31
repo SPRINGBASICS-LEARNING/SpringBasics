@@ -23,9 +23,9 @@ dependencies {
 	compile group: 'ch.qos.logback', name: 'logback-classic'
 
 
-	//implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter'
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
-	//compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.3.4.RELEASE'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.3.4.RELEASE'
 	// https://mvnrepository.com/artifact/javax.inject/javax.inject
 	compile group: 'javax.inject', name: 'javax.inject', version: '1'
 

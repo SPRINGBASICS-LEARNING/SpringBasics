@@ -1,8 +1,10 @@
-/*package com.learning.spring.basics.springin5steps;
+package com.learning.spring.basics.springin5steps;
 
 import com.learning.spring.basics.springin5steps.scope.PersonDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
@@ -20,4 +22,4 @@ public class SpringScopeApplication {
         //using proxy mode in scope gives a different instance here
         LOGGER.info("{}", personDao.getJdbcConnection());
     }
-} */
+}
